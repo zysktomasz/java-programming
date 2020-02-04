@@ -1,7 +1,7 @@
 ---
-path: '/part-3/1-discovering-errors'
+path: "/part-3/1-discovering-errors"
 # title: 'Virheiden etsimisestä'
-title: 'Discovering errors'
+title: "Discovering errors"
 hidden: false
 ---
 
@@ -86,7 +86,7 @@ while (true) {
 if (sum == 0) {
     System.out.println("The average of the values could not be calculated.");
 } else {
-    System.out.println("Average of values: " + (1.0 * sum / value));
+    System.out.println("Average of values: " + (1.0 * sum / values));
 }
 ```
 
@@ -258,7 +258,7 @@ while (true) {
 if (sum == 0) {
     System.out.println("The average of the values could not be calculated.");
 } else {
-    System.out.println("Average of values: " + (1.0 * sum / value));
+    System.out.println("Average of values: " + (1.0 * sum / values));
 }
 ```
 
@@ -322,7 +322,7 @@ System.out.println("-- values: " + values + ", sum: " + sum);
 if (sum == 0) {
     System.out.println("The average of the values could not be calculated.");
 } else {
-    System.out.println("Average of values: " + (1.0 * sum / value));
+    System.out.println("Average of values: " + (1.0 * sum / values));
 }
 ```
 
